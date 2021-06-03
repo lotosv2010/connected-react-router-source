@@ -1,2 +1,3 @@
 # connected-react-router-source
-仿 connected-react-router 源码
+
+[connected-react-router](https://github.com/supasate/connected-react-router).
