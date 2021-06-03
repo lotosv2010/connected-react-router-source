@@ -1,4 +1,4 @@
-import { push } from 'connected-react-router'
+import { push } from '../../connected-react-router'
 import * as types from '../action-types'
 const actionCreators = {
   add() {

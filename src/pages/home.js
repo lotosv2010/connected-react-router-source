@@ -6,11 +6,13 @@ const Home = (props) => {
   return (
     <div>
       <h1>Home</h1>
+      <p>router pathname: {props.router.location.pathname}</p>
+      <p>router action: {props.router.action}</p>
       <button onClick={() => props.history.goBack()}>返回</button>
     </div>
   )
 }
 export default connect(
-  state => state.counter,
+  state => ({...state}),
   actions
 )(Home)

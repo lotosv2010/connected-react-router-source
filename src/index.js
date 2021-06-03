@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Route, Link} from 'react-router-dom';
 import {Provider} from 'react-redux';
-import {ConnectedRouter} from 'connected-react-router';
+import {ConnectedRouter} from './connected-react-router';
 import Home from './pages/home';
 import Counter from './pages/counter';
 import history from './history';
